@@ -18,8 +18,11 @@ class MainActivity : AppCompatActivity() {
         botaoLancarDados.setOnClickListener {
             dado1.setImageResource(escolherImagem())
             dado2.setImageResource(escolherImagem())
-
         }
+
+        val playerName= getIntent().getStringExtra("playername")
+        val playerNameTextView =findViewById<TextView>(R.id.player_name_text)
+        playerNameTextView.text = "Olá, $playerName"
     }
 
     fun escolherImagem(): Int {

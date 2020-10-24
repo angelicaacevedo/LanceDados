@@ -10,10 +10,9 @@
         android:id="@+id/name_inputText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Digite seu nome "
         android:ems="10"
+        android:hint="Digite seu nome "
         android:inputType="textPersonName"
-        android:text="@string/cadastro_input_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,4 +30,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name_inputText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
