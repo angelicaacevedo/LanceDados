@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     fun escolherImagem(): Int {
         return when ((1..6).random()) {
-            1 -> R.drawable.dice_1
+            1 -> R.drawable.dice_1 //Comentario
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
             4 -> R.drawable.dice_4
